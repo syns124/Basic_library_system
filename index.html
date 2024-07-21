@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberary system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav">
+            <li class="right"><a href="">Logout</a></li>
+            <li class="right"><a href="">Contact Us</a></li>
+            <li class="right"><a href="#Register">Register</a></li>
+            <li class="right"><a href="">Books</a></li>
+            <li><img class="left" style="width: 40px;margin-top: 10px;" src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png" alt="Book-icon"></li>
+            <li><a class="left" href="">Library System</a></li>
+        </ul>
+    </header>
+    <div style="width: 60%; margin-left:20%;margin-top: 80px;">
+        <h2>Book</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Book title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <strong>The Great Gatsby</strong>
+                        <table>
+                           <tr>
+                            <td>Publication : 1925</td>
+                           </tr>
+                            <tr>
+                                <td>Page Count : 210</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN : 9780743273565</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>Classic</td>
+                    <td>Available : <a href="https://ia903004.us.archive.org/28/items/the-great-gatsby_1922/the-great-gatsby.pdf">" PDF "</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <strong>To kill a Mockingbird</strong>
+                        <table>
+                            <tr>
+                                <td>Publication : 1960</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 200</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN : 9780061120084</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Harper Lee</td>
+                    <td>Classic</td>
+                    <td>Available : <a href="https://drive.google.com/file/d/0B-yPUnaLWbVEMHhadExtdGhsNnc/view?resourcekey=0-r9U4k4P4EE316BaxLURjTQ"> " PDF " </a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <strong>The Web Application Hacker Hands book</strong>
+                        <table>
+                            <tr>
+                                <td>Publication : 1985</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 758</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0912579061</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>E. Arthur Brown</td>
+                    <td>Cyber Security</td>
+                    <td>Available : <a href="https://archive.org/details/webapplicationha0000stut/mode/1up">" PDF "</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <strong>Harry potter and the Sorcerer's Stone</strong>
+                        <table>
+                            <tr>
+                                <td>Publication :1997</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count : 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 97805903533427</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>J.K Rowing</td>
+                    <td>Fantasy</td>
+                    <td>Available :  <a href="https://drive.google.com/file/d/0B0tutiHDbaxROVJFNk1sUXQ4Tlk/edit?resourcekey=0-wPpyvKtsPNcKol2HIxX1kQ">" PDF "</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <strong>Trading in The Zones</strong>
+                        <table>
+                            <tr>
+                                <td>Publication : 1997</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 143</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9780743273565</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Mark Daglas</td>
+                    <td>Trading</td>
+                    <td>Available : <a href="https://drive.google.com/file/d/1swifXNzKy_AXh8X44M0JlrdkUGlM-bLa/view">" PDF "</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <section class="registration-form" id="Register">
+        <div class="form">
+            <h2>Register</h2>
+            <hr><br>
+            <form action="#" method="post">
+                <div class="myform">
+                    <label for="first_name">First Name:</label>
+                    <input placeholder="Enter first name" type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="myform">
+                    <label for="last_name">Last Name:</label>
+                    <input placeholder="Enter last name" type="text" id="last_name" name="last_name" required>
+                </div>
+                <div class="myform">
+                    <label for="DOB">Date Of Birth:</label>
+                    <input type="date" id="DOB" name="DOB" required>
+                </div>
+                <div class="myform">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="5" max="100" required>
+                </div>
+                <div class="myform">
+                    <label for="email">Email:</label>
+                    <input placeholder="Enter Email-ID" type="email" id="email" name="email" required>
+                </div>
+                <div class="myform">
+                    <label for="password">Password:</label>
+                    <input placeholder="Enter Password" type="password" id="password" name="password" required>
+                </div>
+                <div class="myform">
+                    <label for="conferm-password">Conferm Password</label>
+                    <input placeholder="Conferm Password" type="password" id="conferm-password" name="conferm-password"
+                        required>
+                </div>
+                <button class="button" type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

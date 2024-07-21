@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(171, 236, 213);
+    align-items: center;
+}
+header{
+    position: fixed;top: 0;
+    width: 100%;
+}
+.nav {
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    float:right;
+}
+.left{
+    float:left;
+    }
+li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+table,td,th{
+    border:1px solid #c4bfbf;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(215, 239, 231);
+    box-shadow: 10px;
+}
+th,td{
+    padding: 10px;
+}
+
+label,button{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+input{
+ padding: 10px;
+ margin-bottom: 20px;
+ border: 1px solid #c4bfbf;
+ width:97%;
+ background-color: #f7ecec;
+ box-shadow: 10px;
+}
+.registration-form{
+    border:1px solid rgb(211, 208, 208);
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 20%;
+    /* margin-bottom: 20px; */
+    background-color: rgb(215, 239, 231);
+    box-shadow: 10px;
+}
+.form{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
